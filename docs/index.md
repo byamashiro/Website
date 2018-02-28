@@ -16,3 +16,5 @@ bokeh serve .
 - [ ] Translate bokeh figures into axes objects
 
 
+[Link to test map](https://byamashiro.github.io/Website/docs/plot_test.html)
+
