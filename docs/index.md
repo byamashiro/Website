@@ -27,6 +27,7 @@ bokeh serve .
     frameborder="0">
 </iframe>
 
+{% include plot_test.html %}
 
 ---
 layout: default
