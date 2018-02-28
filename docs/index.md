@@ -18,10 +18,8 @@ bokeh serve .
 
 [Plot Example](https://byamashiro.github.io/Website/Bokeh/img/plot_test.html)
 
-{% include plot_test.html %}
-
 {% include_relative Bokeh/img/plot_test.html
-max-width="200px" %}
+max-width="50px" %}
 
 
 ---
