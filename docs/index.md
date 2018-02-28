@@ -18,7 +18,7 @@ bokeh serve .
 
 [Link to test map](https://byamashiro.github.io/Website/plot_test.html)
 
-<iframe src="/docs/plot_test.html"
+<iframe src="/Bokeh/img/plot_test.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="500"
