@@ -150,7 +150,8 @@ update()
 curdoc().add_root(layout)
 curdoc().title = "Stocks"
 
-output_file(filename='proton_plot.html',mode='cdn') # 'cdn' ,title='plotter'
+
+output_file(filename='proton_plot_2.html',mode='inline') # 'cdn' ,title='plotter'
 save(curdoc())
 
 

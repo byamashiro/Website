@@ -57,7 +57,9 @@
 <p>
 
 In the "daily" directory, use the following command. The "main.py" file must be in the directory above the nested "daily" directory.
-[Plot Example](https://byamashiro.github.io/Website/Bokeh/img/proton_plot.html)
+[CDN Example](https://byamashiro.github.io/Website/Bokeh/img/proton_plot.html)
+[Inline Example](https://byamashiro.github.io/Website/Bokeh/img/proton_plot_2.html)
+
 
 ```bash
 bokeh serve .
@@ -67,6 +69,10 @@ bokeh serve .
 
 # Comparison Plots
 
+### CDN Option
+{% include_relative Bokeh/img/proton_plot.html %}
+
+### Inline Option
 {% include_relative Bokeh/img/proton_plot.html %}
 
 
