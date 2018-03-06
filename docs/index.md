@@ -64,6 +64,7 @@ In the "daily" directory, use the following command. The "main.py" file must be 
 ```bash
 bokeh serve .
 ```
+
 </p>
 </details>
 
@@ -73,7 +74,11 @@ bokeh serve .
 {% include_relative Bokeh/img/proton_plot.html %}
 
 ### Inline Option
-{% include_relative Bokeh/img/proton_plot.html %}
+{% include_relative Bokeh/img/proton_plot_2.html %}
+
+### Version 3
+{% include_relative Bokeh/img/proton_plot_3.html %}
+
 
 
 ---

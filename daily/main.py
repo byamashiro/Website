@@ -33,6 +33,9 @@ from bokeh.models import ColumnDataSource
 from bokeh.models.widgets import PreText, Select
 from bokeh.plotting import figure, output_file, save
 
+output_file(filename='proton_plot_2.html',mode='inline') # 'cdn' ,title='plotter'
+
+
 DATA_DIR = join(dirname(__file__), 'daily') # '/Users/bryanyamashiro/Documents/Research_Projects/Data/GOES_Detection/GOES_13/2012' # join(dirname(__file__), 'daily')
 
 DEFAULT_TICKERS = ['proton', 'xray', 'june', 'july'] # ['AAPL', 'GOOG', 'INTC', 'BRCM', 'YHOO']
@@ -148,10 +151,9 @@ layout = column(main_row, series)
 update()
 
 curdoc().add_root(layout)
-curdoc().title = "Stocks"
+curdoc().title = "Individual"
 
 
-output_file(filename='proton_plot_2.html',mode='inline') # 'cdn' ,title='plotter'
 save(curdoc())
 
 
