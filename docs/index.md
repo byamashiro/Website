@@ -4,7 +4,7 @@
 
 - [Current Tasks](#tasks)
 - [Event List](#event-list)
-- [Comparison Plots](#comparison-plots)
+- [Plots](#plots)
 
 # Tasks
 - [ ] Set up a script to reduce data files into easily readable formats for the bokeh script
@@ -51,32 +51,34 @@
 |	28			|	2017/09/06 11:53:00	|	X9.3    	|	S09W34	|				|
 |	29			|	2017/09/10 15:35:00	|	X8.2    	|	S08W88	|				|
 
+# Plots
+
+## CDN Option
+{% include proton_plot.html %}
 
 
-# Using Bokeh
-<details><summary>Bokeh Instructions</summary>
+### Using Bokeh
+In the "daily" directory, use the following command. The "main.py" file must be in the directory above the nested "daily" directory.
+- [Comparison Plot](/_includes/proton_plot.html)
+- [Individual Plot](/_includes/proton_plot_individual.html)
+
+<details><summary>Bokeh Server</summary>
 <p>
 
-In the "daily" directory, use the following command. The "main.py" file must be in the directory above the nested "daily" directory.
-
-[Comparison Plot](/_includes/proton_plot.html)
-[Individual Plot](/_includes/proton_plot_individual.html)
-
-  
-{% highlight ruby linenos %}
+```bash
 bokeh serve .
-{% endhighlight %}
+```
 
 </p>
 </details>
 
-# Last Changed 20180306 4:52p
 
-# Plots
 
-### CDN Option
-{% include proton_plot.html %}
 
+
+* * *
+
+# Reference Markdown
 
 ---
 layout: default
