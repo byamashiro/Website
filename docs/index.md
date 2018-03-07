@@ -15,6 +15,7 @@
 - [ ] Translate bokeh figures into axes objects
 - [ ] Generate event list in a table
 
+
 # Event List
 
 |			    | Event Start Datetime  | Flare Classification | Location |  CME Speed [km/s]
@@ -67,6 +68,8 @@ bokeh serve .
 
 </p>
 </details>
+
+# Last Changed 20180306 4:52p
 
 # Comparison Plots
 
