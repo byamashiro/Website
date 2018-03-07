@@ -74,16 +74,8 @@ bokeh serve .
 # Plots
 
 ### CDN Option
-{% include_relative Bokeh/img/proton_plot.html %}
+{% include proton_plot.html %}
 
-### Inline Option
-{% include_relative Bokeh/img/proton_plot_2.html %}
-
-### Version 3
-{% include_relative Bokeh/img/proton_plot_3.html %}
-
-### Individual Plot
-{% include_relative Bokeh/img/proton_plot_individual.html %}
 
 ---
 layout: default
