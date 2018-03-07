@@ -61,7 +61,6 @@ In the "daily" directory, use the following command. The "main.py" file must be 
 
 [Comparison Plot](/_includes/proton_plot.html)
 [Individual Plot](/_includes/proton_plot_individual.html)
-[Link to a page]({{ site.baseurl }}{% link _includes/proton_plot.html %})
 
   
 {% highlight ruby linenos %}
