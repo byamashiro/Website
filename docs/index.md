@@ -59,12 +59,14 @@
 
 In the "daily" directory, use the following command. The "main.py" file must be in the directory above the nested "daily" directory.
 
-[Comparison Plot]({% includes_url proton_plot.html %})
-[Individual Plot]({% includes_url proton_plot_individual.html %})
+[Comparison Plot](/_includes/proton_plot.html)
+[Individual Plot](/_includes/proton_plot_individual.html)
+[Link to a page]({{ site.baseurl }}{% link _includes/proton_plot.html %})
 
-```bash
+  
+{% highlight ruby linenos %}
 bokeh serve .
-```
+{% endhighlight %}
 
 </p>
 </details>
