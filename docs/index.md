@@ -53,14 +53,14 @@
 
 
 
-### Using Bokeh
+# Using Bokeh
 <details><summary>Bokeh Instructions</summary>
 <p>
 
 In the "daily" directory, use the following command. The "main.py" file must be in the directory above the nested "daily" directory.
-[CDN Example](https://byamashiro.github.io/Website/Bokeh/img/proton_plot.html)
-[Inline Example](https://byamashiro.github.io/Website/Bokeh/img/proton_plot_2.html)
 
+[Comparison Plot](_includes/proton_plot.html)
+[Individual Plot](_includes/proton_plot_individual.html)
 
 ```bash
 bokeh serve .
