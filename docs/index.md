@@ -75,12 +75,8 @@ bokeh serve .
 
 
 
-
-* * *
-
-# Reference Markdown
-
 ---
+# Reference Markdown
 layout: default
 ---
 
