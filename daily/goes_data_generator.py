@@ -2,7 +2,7 @@ import pandas as pd
 from os.path import dirname, join
 
 
-data_to_generate = 'proton'
+data_to_generate = 'xray'
 data_date = ['201106','201203','201409', '201205']
 
 DATA_DIR = 'conversion_folder'
@@ -17,7 +17,7 @@ if data_to_generate == 'proton':
     
         data = data['ZPGT100W']
     
-        data.to_csv(f'conversion_folder/goes_modified_{i}.csv',sep=',',index=True)
+        data.to_csv(f'conversion_folder/goes_modified_proton_{i}.csv',sep=',',index=True)
 
 elif data_to_generate == 'xray':
     
@@ -25,9 +25,9 @@ elif data_to_generate == 'xray':
 
     dateparse = lambda x: pd.datetime.strptime(x, '%Y-%m-%d %H:%M:%S.%f')
     
-    fname = f'goes_xray.csv' # join(DATA_DIR, 'table_%s.csv' % ticker.lower())
+    fname = f'goes_xray_original_20110607.csv' # join(DATA_DIR, 'table_%s.csv' % ticker.lower())
     data = pd.read_csv(f'{DATA_DIR}/{fname}', skiprows=167, date_parser=dateparse, names=xray_names,index_col='time_tag', header=0)
 
     data = data['A_AVG']
 
-    data.to_csv('goes_modified_xray.csv',sep=',',index=True)
+    data.to_csv(f'conversion_folder/goes_modified_xray_20110607.csv',sep=',',index=True)

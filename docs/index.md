@@ -71,7 +71,7 @@ bokeh serve .
 
 # Last Changed 20180306 4:52p
 
-# Comparison Plots
+# Plots
 
 ### CDN Option
 {% include_relative Bokeh/img/proton_plot.html %}
@@ -82,7 +82,8 @@ bokeh serve .
 ### Version 3
 {% include_relative Bokeh/img/proton_plot_3.html %}
 
-
+### Individual Plot
+{% include_relative Bokeh/img/proton_plot_individual.html %}
 
 ---
 layout: default
